@@ -1,4 +1,5 @@
 *.css
+.vscode
 
 # Logs
 logs
