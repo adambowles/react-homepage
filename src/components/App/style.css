@@ -3,31 +3,20 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  height: 100vh;
   width: 100vw;
-
-  text-align: center;
-
-  background-color: #5D9CEC;
-  /*background-image: url('http://4.bp.blogspot.com/-O-Jia6CTbr0/TqLEJqeitFI/AAAAAAAACgc/871fPwKVTD4/s1600/himalayas_beautiful_mountains_Amadablam_Expedition.jpg');*/
+  height: 100vh;
+  background-color: #5d9cec;
   background-size: 100% auto;
-  color: white;
-}
-
-.site .intro .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-}
-
-.site .intro .scroll {
-  flex: 0;
-  margin: 20px;
-}
-
-.site .body {
-  height: 200vh;
-}
+  color: #fff;
+  text-align: center; }
+  .site .intro .body {
+    height: 200vh; }
+  .site .intro .text {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .site .intro .scroll {
+    flex: 0;
+    margin: 20px; }

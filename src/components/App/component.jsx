@@ -15,10 +15,6 @@ export default class App extends Component {
             something goes down here
           </div>
         </section>
-
-        {/* <section className='body'>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </section> */}
       </div>
     )
   }
