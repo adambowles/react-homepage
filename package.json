@@ -12,17 +12,17 @@
     "test": "react-scripts test --env=jsdom"
   },
   "dependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-standard": "^6.2.1",
-    "eslint-config-standard-react": "^4.2.0",
-    "eslint-plugin-promise": "^3.3.0",
-    "eslint-plugin-react": "^6.10.3",
-    "eslint-plugin-standard": "^2.0.1",
-    "node-sass": "^4.5.2",
-    "normalize.css": "^5.0.0",
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-react": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0",
     "npm-run-all": "^4.0.2",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-scripts": "0.9.5"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.10"
   }
 }
