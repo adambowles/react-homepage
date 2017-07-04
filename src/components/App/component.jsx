@@ -11,9 +11,6 @@ export default class App extends Component {
             <h1>Adam Bowles</h1>
             <h1>Front End Web Developer</h1>
           </div>
-          <div className='scroll'>
-            something goes down here
-          </div>
         </section>
       </div>
     )
