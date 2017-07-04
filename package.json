@@ -12,17 +12,21 @@
     "test": "react-scripts test --env=jsdom"
   },
   "dependencies": {
+    "classnames": "^2.2.5",
     "eslint": "^4.1.1",
     "eslint-config-standard": "^10.2.1",
     "eslint-config-standard-react": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.1",
+    "font-awesome": "^4.7.0",
     "node-sass": "^4.5.3",
     "normalize.css": "^7.0.0",
     "npm-run-all": "^4.0.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-scripts": "1.0.10"
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "1.0.10",
+    "roboto-fontface": "^0.7.0"
   }
 }
