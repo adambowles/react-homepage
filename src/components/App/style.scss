@@ -10,48 +10,52 @@
   $background-color: #5d9cec;
   $background-gradient-amount: 10%;
   background-color: $background-color;
-  background: linear-gradient(to right, darken($background-color, $background-gradient-amount / 2), lighten($background-color, $background-gradient-amount / 2));
+  background: linear-gradient(
+    to right,
+    darken($background-color, $background-gradient-amount / 2),
+    lighten($background-color, $background-gradient-amount / 2)
+  );
   background-size: 100% auto;
   color: #fff;
   text-align: center;
+}
 
-  &__info-block {
+.info-block {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__info {
+    margin-top: 0px;
+
+    &:not(:last-child) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__name {
+    font-size: 48px;
+  }
+
+  &__job {
+    font-size: 36px;
+  }
+
+  &__links {
     display: flex;
-    flex: 1;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
-    &__info {
-      margin-top: 0px;
+    &__link {
+      font-size: 24pt;
+
+      color: inherit;
 
       &:not(:last-child) {
-        margin-bottom: 32px;
-      }
-    }
-
-    &__name {
-      font-size: 48px;
-    }
-
-    &__job {
-      font-size: 36px;
-    }
-
-    &__links {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-
-      &__link {
-        font-size: 24pt;
-
-        color: inherit;
-
-        &:not(:last-child) {
-          margin-right: 20px;
-        }
+        margin-right: 20px;
       }
     }
   }
