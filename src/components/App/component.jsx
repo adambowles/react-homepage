@@ -18,7 +18,7 @@ export default class App extends Component {
               rel='noopener noreferrer'
               href='https://www.github.com/adambowles'
               className='info-block__links__link'
-              title='Github'
+              title='GitHub'
             >
               <FontAwesome name='github-square' fixedWidth />
             </a>
