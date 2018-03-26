@@ -16,7 +16,7 @@ export default class App extends Component {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.github.com/adambowles/'
+              href='https://www.github.com/adambowles'
               className='info-block__links__link'
               title='Github'
             >
@@ -34,7 +34,7 @@ export default class App extends Component {
             <a
               target='_blank'
               rel='noopener noreferrer'
-              href='https://www.linkedin.com/in/adambowles/'
+              href='https://www.linkedin.com/in/adambowles'
               className='info-block__links__link'
               title='LinkedIn'
             >
