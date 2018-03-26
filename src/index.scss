@@ -3,16 +3,42 @@
   color: #5CE4ED;
 }
 
-* {
+:root {
   --font-weight-ultra-light: 100;
   --font-weight-thin: 200;
   --font-weight-regular: 400;
   --font-weight-medium: 500;
   --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
+  
+  --font-family-sans-serif:
+    // Safari for OS X and iOS (San Francisco)
+    -apple-system,
+    // Chrome >= 56 for OS X (San Francisco), Windows, Linux and Android
+    system-ui,
+    // Chrome < 56 for OS X (San Francisco)
+    BlinkMacSystemFont,
+    // Windows
+    "Segoe UI",
+    // Android
+    "Roboto",
+    // Basic web fallback
+    "Helvetica Neue", Arial, sans-serif !default;
+}
 
+html {
   box-sizing: border-box;
+  font-family: var(--font-family-sans-serif);
+  font-weight: var(--font-weight-thin);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: var(--font-family-sans-serif);
   font-weight: var(--font-weight-thin);
 }
